@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+
+
+</head>
+<body>
+    <input id="a" type="text" ><br><BR>
+<input id="b" type="text" ><br><br>
+<button id="btn">submit</button>
+<p id="sum"> </p>
+
+<script>
+ function sumofinp() {
+
+var ele1 = document.getElementById('a').value;
+var ele2 = document.getElementById('b').value;
+var result = parseInt(ele1) + parseInt(ele2);
+document.getElementById("sum").innerHTML=result;
+
+    
+ }
+
+ var elem = document.getElementById("btn");
+elem.addEventListener("click",sumofinp);
+
+
+
+
+
+</script>
+    
+
+
+</body>
+</html>
+
